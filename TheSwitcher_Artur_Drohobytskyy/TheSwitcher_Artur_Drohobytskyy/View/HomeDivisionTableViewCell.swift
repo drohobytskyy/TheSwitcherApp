@@ -22,10 +22,13 @@ class HomeDivisionTableViewCell: UITableViewCell {
     
     func setupCell(homeDivision: HomeDivision) {
         
-        //set properties
-        divisionItemId = homeDivision.id
-        divisionNameLabel.text = homeDivision.divisionName
-        switchButton.isOn = homeDivision.isLightOn ?? false
+        // set properties
+        self.divisionItemId = homeDivision.id
+        self.divisionNameLabel.text = homeDivision.divisionName
+        self.switchButton.isOn = homeDivision.isLightOn ?? false
+        
+        // adjust switchButton color
+        self.switchButton.onTintColor = UIColor(rgb: Utils.primaryColor)
         
         // adjust separator margins
         let margin = divisionNameLabel.frame.origin.x - 3

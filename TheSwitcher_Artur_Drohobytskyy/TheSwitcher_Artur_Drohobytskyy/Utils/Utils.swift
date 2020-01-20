@@ -10,6 +10,9 @@ class Utils {
     
     static let shared: Utils = Utils()
     
+    static let primaryColor: Int = 0x668f3d
+    static let imageBackgroundColor: Int = 0xd7d8db
+    
     func getHomeDivisionsSampleArray() -> [HomeDivision] {
         
         return [HomeDivision(id: 1, divisionName: "Kitchen", isLightOn: false),

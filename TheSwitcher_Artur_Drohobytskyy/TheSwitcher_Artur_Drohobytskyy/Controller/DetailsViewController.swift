@@ -28,7 +28,7 @@ class DetailsViewController: UIViewController {
     private func setupLayout() {
         
         imageView.contentMode = .scaleAspectFit
-        imageView.backgroundColor = UIColor.darkGray
+        imageView.backgroundColor = UIColor.init(rgb: Utils.imageBackgroundColor)
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 2).isActive = true
