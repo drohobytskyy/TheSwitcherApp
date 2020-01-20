@@ -13,6 +13,9 @@
 		3D281D3D23D5A50D00E1F72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D281D3C23D5A50D00E1F72D /* Assets.xcassets */; };
 		3D281D4023D5A50D00E1F72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D281D3E23D5A50D00E1F72D /* LaunchScreen.storyboard */; };
 		3D281D4C23D5A81900E1F72D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D4B23D5A81900E1F72D /* DetailsViewController.swift */; };
+		3D281D4E23D5B17600E1F72D /* HomeDivisionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D4D23D5B17600E1F72D /* HomeDivisionTableViewCell.swift */; };
+		3D281D5023D5C2F800E1F72D /* HomeDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D4F23D5C2F800E1F72D /* HomeDivision.swift */; };
+		3D281D5323D5C3CC00E1F72D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D5223D5C3CC00E1F72D /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3D281D3F23D5A50D00E1F72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D281D4123D5A50D00E1F72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D281D4B23D5A81900E1F72D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3D281D4D23D5B17600E1F72D /* HomeDivisionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDivisionTableViewCell.swift; sourceTree = "<group>"; };
+		3D281D4F23D5C2F800E1F72D /* HomeDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDivision.swift; sourceTree = "<group>"; };
+		3D281D5223D5C3CC00E1F72D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		3D281D3423D5A50600E1F72D /* TheSwitcher_Artur_Drohobytskyy */ = {
 			isa = PBXGroup;
 			children = (
+				3D281D5123D5C3BB00E1F72D /* Utils */,
 				3D281D4A23D5A6C300E1F72D /* Extensions */,
 				3D281D4923D5A6B100E1F72D /* Controller */,
 				3D281D4823D5A6A900E1F72D /* View */,
@@ -72,6 +79,7 @@
 		3D281D4723D5A6A200E1F72D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D281D4F23D5C2F800E1F72D /* HomeDivision.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,6 +87,7 @@
 		3D281D4823D5A6A900E1F72D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D281D4D23D5B17600E1F72D /* HomeDivisionTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +106,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3D281D5123D5C3BB00E1F72D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3D281D5223D5C3CC00E1F72D /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +190,9 @@
 				3D281D3823D5A50600E1F72D /* ViewController.swift in Sources */,
 				3D281D3623D5A50600E1F72D /* AppDelegate.swift in Sources */,
 				3D281D4C23D5A81900E1F72D /* DetailsViewController.swift in Sources */,
+				3D281D4E23D5B17600E1F72D /* HomeDivisionTableViewCell.swift in Sources */,
+				3D281D5023D5C2F800E1F72D /* HomeDivision.swift in Sources */,
+				3D281D5323D5C3CC00E1F72D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
