@@ -15,10 +15,13 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var divisionNameLabel: UILabel!
     @IBOutlet weak var divisionStateLabel: UILabel!
     
+    var homeDivision: HomeDivision?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupLayout()
+        setupData()
     }
     
     // MARK: - Autolayout setup
@@ -43,5 +46,25 @@ class DetailsViewController: UIViewController {
         containerStackView.addArrangedSubview(divisionStateLabel)
         containerStackView.spacing = 10
     }
-
+    
+    // MARK: - set data for UI elements
+    private func setupData() {
+        
+        if let divisionName = homeDivision?.divisionName {
+            
+            self.navigationItem.title = divisionName
+            divisionNameLabel.text = "Your \(divisionName) light is"
+        }
+        
+        if let lightOn = homeDivision?.isLightOn {
+            
+            if lightOn == true {
+                imageView.image = UIImage(named: "light_on")
+                divisionStateLabel.text = "ON"
+            } else {
+                imageView.image = UIImage(named: "light_off")
+                divisionStateLabel.text = "OFF"
+            }
+        }
+    }
 }

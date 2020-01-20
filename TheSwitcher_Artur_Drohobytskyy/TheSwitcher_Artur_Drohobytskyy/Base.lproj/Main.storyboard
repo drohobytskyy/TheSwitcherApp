@@ -56,7 +56,7 @@
                                         <connections>
                                             <outlet property="divisionNameLabel" destination="rSy-kY-Bda" id="c1M-mP-jS7"/>
                                             <outlet property="switchButton" destination="AN5-MM-WXk" id="gch-Bf-CJn"/>
-                                            <segue destination="xOS-ua-byD" kind="show" id="o2R-1L-ufo"/>
+                                            <segue destination="xOS-ua-byD" kind="show" identifier="showDetailsSuegueIdetifier" trigger="accessoryAction" id="o8b-gf-tW2"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

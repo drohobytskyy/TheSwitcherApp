@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var homeDivisionTableView: UITableView!
     
     private let cell_identifier: String = "homeDivisionCell"
+    private let showDetailsSegue: String = "showDetailsSuegueIdetifier"
     private var homeDivisions: [HomeDivision] = []
     
     override func viewDidLoad() {
@@ -44,6 +45,19 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.delegate = self
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: showDetailsSegue, sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destination = segue.destination as? DetailsViewController {
+            if let index = homeDivisionTableView.indexPathForSelectedRow?.row {
+                destination.homeDivision = homeDivisions[index]
+            }
+        }
     }
 }
 
