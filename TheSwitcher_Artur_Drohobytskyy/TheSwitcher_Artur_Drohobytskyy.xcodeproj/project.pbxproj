@@ -17,6 +17,7 @@
 		3D281D5023D5C2F800E1F72D /* HomeDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D4F23D5C2F800E1F72D /* HomeDivision.swift */; };
 		3D281D5323D5C3CC00E1F72D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D5223D5C3CC00E1F72D /* Utils.swift */; };
 		3D281D5523D5F6A400E1F72D /* RGBColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D5423D5F6A400E1F72D /* RGBColorExtension.swift */; };
+		3D281D5723D6040800E1F72D /* StatusBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D281D5623D6040800E1F72D /* StatusBarExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3D281D4F23D5C2F800E1F72D /* HomeDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDivision.swift; sourceTree = "<group>"; };
 		3D281D5223D5C3CC00E1F72D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3D281D5423D5F6A400E1F72D /* RGBColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColorExtension.swift; sourceTree = "<group>"; };
+		3D281D5623D6040800E1F72D /* StatusBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				3D281D5423D5F6A400E1F72D /* RGBColorExtension.swift */,
+				3D281D5623D6040800E1F72D /* StatusBarExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D281D3823D5A50600E1F72D /* ViewController.swift in Sources */,
+				3D281D5723D6040800E1F72D /* StatusBarExtension.swift in Sources */,
 				3D281D3623D5A50600E1F72D /* AppDelegate.swift in Sources */,
 				3D281D4C23D5A81900E1F72D /* DetailsViewController.swift in Sources */,
 				3D281D4E23D5B17600E1F72D /* HomeDivisionTableViewCell.swift in Sources */,

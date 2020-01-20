@@ -30,27 +30,24 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSy-kY-Bda">
-                                                    <rect key="frame" x="25" y="35" width="325" height="21"/>
+                                                    <rect key="frame" x="25" y="34.5" width="266" height="21"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AN5-MM-WXk">
-                                                    <rect key="frame" x="296" y="29" width="56" height="31"/>
+                                                    <rect key="frame" x="301" y="29.5" width="51" height="31"/>
                                                     <connections>
                                                         <action selector="switchLightAction:" destination="0CZ-Hy-G7G" eventType="valueChanged" id="fbr-NN-pDy"/>
                                                     </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="rSy-kY-Bda" firstAttribute="leading" secondItem="WJD-uk-wbN" secondAttribute="leadingMargin" constant="10" id="0sR-5C-sGf"/>
-                                                <constraint firstItem="AN5-MM-WXk" firstAttribute="leading" secondItem="WJD-uk-wbN" secondAttribute="leadingMargin" constant="281" id="7QN-aU-f55"/>
-                                                <constraint firstItem="rSy-kY-Bda" firstAttribute="centerX" secondItem="WJD-uk-wbN" secondAttribute="centerX" id="W24-P6-blF"/>
-                                                <constraint firstItem="rSy-kY-Bda" firstAttribute="top" secondItem="WJD-uk-wbN" secondAttribute="topMargin" constant="24" id="Y4Z-eA-pbj"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="AN5-MM-WXk" secondAttribute="trailing" constant="10" id="dFF-P6-V6C"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="rSy-kY-Bda" secondAttribute="bottom" constant="23" id="f7Y-Zf-r8o"/>
-                                                <constraint firstItem="AN5-MM-WXk" firstAttribute="top" secondItem="WJD-uk-wbN" secondAttribute="topMargin" constant="18" id="kFi-V1-pTE"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="AN5-MM-WXk" secondAttribute="bottom" constant="19" id="lAN-aJ-bz2"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AN5-MM-WXk" secondAttribute="trailing" constant="10" id="ImO-Em-Sif"/>
+                                                <constraint firstItem="rSy-kY-Bda" firstAttribute="leading" secondItem="WJD-uk-wbN" secondAttribute="leadingMargin" constant="10" id="MxH-EG-kLh"/>
+                                                <constraint firstItem="rSy-kY-Bda" firstAttribute="centerY" secondItem="WJD-uk-wbN" secondAttribute="centerY" id="a23-eL-jt5"/>
+                                                <constraint firstItem="AN5-MM-WXk" firstAttribute="centerY" secondItem="WJD-uk-wbN" secondAttribute="centerY" id="a7d-Kf-W9X"/>
+                                                <constraint firstItem="AN5-MM-WXk" firstAttribute="leading" secondItem="rSy-kY-Bda" secondAttribute="trailing" constant="10" id="j1p-cg-Xpr"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -99,17 +96,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rml-5h-uxi">
-                                <rect key="frame" x="0.0" y="201" width="149.5" height="71"/>
+                                <rect key="frame" x="0.0" y="201" width="157" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your kitchen light is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fne-mK-hDc">
-                                        <rect key="frame" x="0.0" y="0.0" width="149.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your kitchen light is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fne-mK-hDc">
+                                        <rect key="frame" x="0.0" y="0.0" width="157" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilY-kO-MMn">
-                                        <rect key="frame" x="0.0" y="20.5" width="149.5" height="50.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilY-kO-MMn">
+                                        <rect key="frame" x="0.0" y="20.5" width="157" height="50.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>

@@ -44,7 +44,7 @@ class DetailsViewController: UIViewController {
         
         containerStackView.addArrangedSubview(divisionNameLabel)
         containerStackView.addArrangedSubview(divisionStateLabel)
-        containerStackView.spacing = 10
+        //containerStackView.spacing = 10
     }
     
     // MARK: - set data for UI elements
